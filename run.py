@@ -12,7 +12,7 @@ start = time.clock()
 
 cs.hostname = 'localhost'
 cs.username = 'zkk'
-cs.password = 'zkk
+cs.password = 'zkk'
 cs.CiteSeerImporter(dbtype='mysql',files=files)
 
 print "Time used:",(time.clock() - start)
