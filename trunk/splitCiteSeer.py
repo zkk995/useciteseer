@@ -20,7 +20,6 @@ def splitCiteSeer(xml="citeseerdata.xml",outpath="xml/",size=40):
 		if intoken:
 			sp.write(line_)
 		if line==stoken:
-			sp.write(line_)
 			sp.close()
 			intoken=0
 			if n500%size==size-1:
